@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .menu li:first-child {
+    margin-left: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  .menu a:hover {
+    background-color: #849374;
+    color: white;
+    padding: 10px;
+  }
+
+  
+  /* Styling for the hero header */
+  .hero {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+    background-position: bottom center;
+    height: fit-content;
+    background-size: cover;
+    text-align: left;
+    padding: 100px;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #849374;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Styling for the testimonial section */
+#testimonial {
+    background-color: #849374;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  #testimonial h2 {
+    padding-bottom: 20px;
+    font-size: 42px;
+  }
+
+  #testimonial p {
+    text-align: center;
+    padding: 0px 200px 20px 200px;
+    font-size: 20px;
+    
+  }
+
+  .testimonial-content {
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+/*Styling for About me section*/  
+.container {
+    display: flex;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .my-pic,
+  .description {
+    height: 500px;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .my-pic {
+    padding: 50px;
+  }
+  
+  #profile {
+    background-image: url(images/meeee\ 1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    margin-left: 100px;
+  }
+
+  .description h2 {
+    font-size: 42px;
+    padding-bottom: 20px;
+  }
+
+  .description p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+ /* Styling for the contact me section */
+ 
+ #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+ #contact h2 {
+    font-size: 42px;
+    padding: 20px 0px;
+ }
+
+ form {
+    font-size: 20px;
+ }
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #849374;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #849374;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    margin-bottom: 50px;
+  }
+  
+  /* Styling for the footer */
+  footer {
+    background-color: #849374;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+  }
